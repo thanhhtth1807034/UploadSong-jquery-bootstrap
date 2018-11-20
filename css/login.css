@@ -4,14 +4,62 @@
 input.error{
     border-color: red;
 }
-input[type=text], input {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
+/*input[type=text], input {*/
+    /*width: 100%;*/
+    /*padding: 12px 20px;*/
+    /*margin: 8px 0;*/
+    /*display: inline-block;*/
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 4px;*/
+    /*box-sizing: border-box;*/
+    /*text-align: center;*/
+/*}*/
+
+input[type=text], select, textarea, input[type=url], input[type=password], input[type=email] {
+    width: 58%;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
 }
 
+input[type=submit], input[type=reset] {
+
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*input[type= submit] :hover {*/
+    /*background-color: #45a049;*/
+/*}*/
+
+/*input[type=reset]:hover {*/
+    /*background-color: #45a049;*/
+/*}*/
+label{
+    display: block;
+}
+form{
+    margin: auto;
+}
+ul li a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    /*text-align: center;*/
+}
+ul li {
+    display: inline-table;
+    position: relative;
+    width: 150px;
+}
+h1 {
+    padding-left: 250px;
+}

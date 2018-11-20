@@ -5,16 +5,18 @@ input.error{
     border-color: red;
 }
 /*input[type=text], input {*/
-    /*width: 100%;*/
-    /*padding: 12px 20px;*/
-    /*margin: 8px 0;*/
-    /*display: inline-block;*/
-    /*border: 1px solid #ccc;*/
-    /*border-radius: 4px;*/
-    /*box-sizing: border-box;*/
-    /*text-align: center;*/
+/*width: 100%;*/
+/*padding: 12px 20px;*/
+/*margin: 8px 0;*/
+/*display: inline-block;*/
+/*border: 1px solid #ccc;*/
+/*border-radius: 4px;*/
+/*box-sizing: border-box;*/
+/*text-align: center;*/
 /*}*/
+
 input[type=text], select, textarea, input[type=url], input[type=password], input[type=email] {
+    width: 58%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -33,7 +35,7 @@ input[type=submit], input[type=reset] {
     cursor: pointer;
 }
 
-/*input[type=submit] :hover {*/
+/*input[type=button] :hover {*/
     /*background-color: #45a049;*/
 /*}*/
 
