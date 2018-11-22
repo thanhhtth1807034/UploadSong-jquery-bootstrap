@@ -61,5 +61,8 @@ ul li {
     width: 150px;
 }
 h1 {
-    padding-left: 250px;
+    text-align: center;
+}
+.carousel-item img{
+    height: 500px;
 }

@@ -70,3 +70,6 @@ ul li {
 h1 {
     text-align: center;
 }
+.carousel-item img{
+    height: 500px;
+}
